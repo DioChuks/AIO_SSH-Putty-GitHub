@@ -9,7 +9,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 Open the contents of the public key and copy it, then go to GitHub account settings > SSH and GPG keys > click `New SSH key` and follow the rest instructions from there.
 
-After that, go back to cPanel and download the private/public key as Putty file format or as original file format.
+After that, go back to cPanel, and authorize the key and download the private key as Putty file format or as original file format.
 
 If downloaded as Putty file format, open Putty, head to `SSH > Auth > Credentials`, then select the path where it's saved on your local machine.
 
