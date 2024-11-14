@@ -1,4 +1,18 @@
-```markdown
+## How to use
+Download or copy the script into a file
+Give execute permissions:
+
+```bash
+chmod +x spg.sh
+```
+- Run the script:
+
+```bash
+./spg.sh
+```
+Note: This script automates the process where possible and provides clear instructions for manual steps like handling the private key in PuTTY format. The user will be prompted to complete those steps manually and return to the script once they’ve done so.
+
+### Manual Instructions
 # Connecting SSH to GitHub via Putty or any other clients
 
 If you're using cPanel, enable remote SSH access by either contacting the hosting support or toggling the access permission.
